@@ -6,9 +6,9 @@ In the real world, there are not only lots of trade data but also information ab
 
 In data, I can recognize the price difference among used-cars on the same model.
 
-[Graph 1 (Price difference by odometer per year)](https://user-images.githubusercontent.com/8471958/68105887-39ca2c80-ff23-11e9-9362-a83e3a0e086f.png)
+![Graph 1 (Price difference by odometer per year)](https://user-images.githubusercontent.com/8471958/68105887-39ca2c80-ff23-11e9-9362-a83e3a0e086f.png)
 
-[Graph 2 (Price difference by color on the same model)](https://user-images.githubusercontent.com/8471958/68105891-3c2c8680-ff23-11e9-9f87-6755894da170.png)
+![Graph 2 (Price difference by color on the same model)](https://user-images.githubusercontent.com/8471958/68105891-3c2c8680-ff23-11e9-9f87-6755894da170.png)
 
 These two samples show the price is different by car statuses like odometer per year or painted color. The p-values are below 0.05, so the difference between groups(odometer or color) is accepted as significant.
 
@@ -16,7 +16,7 @@ I will predict the appropriate price for used-car using several features through
 
 I have a plan to implement the following features.
 
-* Gathering Data.
+* Gathering Data(https://www.kaggle.com/austinreese/craigslist-carstrucks-data).
 * Analysis of used-car trade data and Making a predictive model for pricing.
 * For customers, implement the web-page(or mobile application) to search the price and available used-car.
 * For dealers, show the predictive price difference due to each repair using the interactive user interface.
